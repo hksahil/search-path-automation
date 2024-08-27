@@ -136,7 +136,6 @@ def main():
     st.title("Cognos BI Environment Extractor & Report Rationalization")
     st.write("Upload a CSV file with the following column:")
     st.write(f"- `{expected_columns[0]}`: The original search path of the report.")
-    st.write("The `reportName` will be generated from the search path.")
 
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
